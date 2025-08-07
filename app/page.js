@@ -159,6 +159,7 @@ export default function Home() {
             {skills.map((skill) => (
               <li>
                 <SkillCard
+                  key={skill.id}
                   iconSrc={skill.iconSrc}
                   title={skill.title}
                   link={skill.link}
