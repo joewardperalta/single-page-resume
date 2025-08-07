@@ -45,7 +45,7 @@ export default function Home() {
     {
       id: 3,
       iconSrc: "/javascript-icon.png",
-      title: "Portfolio",
+      title: "Javascript",
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
