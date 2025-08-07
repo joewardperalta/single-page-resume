@@ -1,4 +1,6 @@
+import Paragraph from "@/components/Paragraph";
 import ProfilePhoto from "@/components/ProfilePhoto";
+import SectionHeading from "@/components/SectionHeading";
 import SocialLinkCard from "@/components/SocialLinkCard";
 import SubTitle from "@/components/SubTitle";
 import Title from "@/components/Title";
@@ -28,7 +30,7 @@ export default function Home() {
 
   return (
     <main>
-      {/* Hero section */}
+      {/* Hero Section */}
       <section className="pt-11">
         <Wrapper>
           <div className="space-y-4">
@@ -56,6 +58,20 @@ export default function Home() {
               ))}
             </ul>
           </div>
+        </Wrapper>
+      </section>
+
+      {/* Professional Summary Section */}
+      <section>
+        <Wrapper>
+          <SectionHeading>Professional Summary</SectionHeading>
+          <Paragraph>
+            Junior full stack developer skilled in React, Node.js, and MongoDB
+            with a passion for building scalable, user-focused web applications.
+            Strong experience in authentication, responsive UI, and working
+            directly with clients. Actively seeking entry-level opportunities in
+            collaborative teams focused on impactful products.
+          </Paragraph>
         </Wrapper>
       </section>
     </main>
