@@ -15,7 +15,7 @@ export default function Navbar() {
             </li>
 
             {/* Contact Information */}
-            <div className="flex gap-3 md:gap-6">
+            <div className="flex gap-5 md:gap-6">
               <li>
                 <ContactLinkCard
                   iconSrc="/email-icon.png"

@@ -12,11 +12,11 @@ export default function ContactLinkCard({
     <Link
       href={link}
       className={`flex w-fit items-center ${
-        disableTitleOnMobile ? "md:gap-2" : "gap-1"
+        !disableTitleOnMobile ? "gap-1" : ""
       }`}
     >
       {/* Contact Icon */}
-      <div className="w-3 h-3 md:w-4 md:h-4">
+      <div className="w-4 h-4 md:w-4 md:h-4">
         <Image
           className="w-full h-full"
           src={iconSrc}
@@ -29,9 +29,9 @@ export default function ContactLinkCard({
       {/* Contact Title */}
       <div>
         <Paragraph
-          className={`!text-primary text-xs ${
+          className={`!text-primary text-sm ${
             disableTitleOnMobile ? "hidden" : ""
-          } md:block md:text-sm`}
+          }`}
         >
           {title}
         </Paragraph>
