@@ -1,0 +1,31 @@
+import Link from "next/link";
+import Image from "next/image";
+import Paragraph from "./Paragraph";
+
+export default function SocialLinkCard({
+  iconSrc = "/placeholder-icon.png",
+  title = "Title",
+  link = "/",
+}) {
+  return (
+    <Link href={link} className={`flex w-fit items-center gap-1`}>
+      {/* Contact Icon */}
+      <div className="w-3 h-3 md:w-4 md:h-4">
+        <Image
+          className="w-full h-full"
+          src={iconSrc}
+          alt="A contact icon."
+          width={20}
+          height={20}
+        />
+      </div>
+
+      {/* Contact Title */}
+      <div>
+        <Paragraph className={`!text-primary text-xs md:block md:text-sm`}>
+          {title}
+        </Paragraph>
+      </div>
+    </Link>
+  );
+}
