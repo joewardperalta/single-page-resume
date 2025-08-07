@@ -2,8 +2,8 @@ import Paragraph from "./Paragraph";
 
 export default function SubTitle({ children, className }) {
   return (
-    <Paragraph className={`${className} text-lg font-medium`}>
+    <p className={`${className} text-base text-secondary font-medium`}>
       {children}
-    </Paragraph>
+    </p>
   );
 }
