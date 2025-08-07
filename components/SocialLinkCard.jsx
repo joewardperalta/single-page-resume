@@ -8,7 +8,11 @@ export default function SocialLinkCard({
   link = "/",
 }) {
   return (
-    <Link href={link} className={`flex w-fit items-center gap-1`}>
+    <Link
+      href={link}
+      target="_blank"
+      className={`flex w-fit items-center gap-1`}
+    >
       {/* Contact Icon */}
       <div className="w-4 h-4 md:w-4 md:h-4">
         <Image
