@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <main>
       {/* Hero section */}
-      <section className="pt-10">
+      <section className="pt-11">
         <Wrapper>
           <div className="space-y-4">
             {/* Profile photo */}
