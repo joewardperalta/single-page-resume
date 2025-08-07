@@ -157,9 +157,8 @@ export default function Home() {
           <SectionHeading>Technical Skills</SectionHeading>
           <ul className="flex gap-2 flex-wrap">
             {skills.map((skill) => (
-              <li>
+              <li key={skill.id}>
                 <SkillCard
-                  key={skill.id}
                   iconSrc={skill.iconSrc}
                   title={skill.title}
                   link={skill.link}
