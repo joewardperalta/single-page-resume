@@ -10,19 +10,19 @@ export default function Home() {
       id: 1,
       iconSrc: "/github-icon.png",
       title: "GitHub",
-      link: "/",
+      link: "https://github.com/joewardperalta/",
     },
     {
       id: 2,
       iconSrc: "/linkedin-icon.png",
       title: "LinkedIn",
-      link: "/",
+      link: "https://www.linkedin.com/in/joewardperalta/",
     },
     {
       id: 3,
       iconSrc: "/briefcase-icon.png",
       title: "Portfolio",
-      link: "/",
+      link: "https://www.joewardperalta.dev/",
     },
   ];
 
