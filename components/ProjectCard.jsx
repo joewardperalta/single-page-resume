@@ -4,9 +4,9 @@ import SubHeading from "./SubHeading";
 
 export default function ProjectCard({ className, project }) {
   return (
-    <div>
+    <div className="space-y-2">
       {/* Headline */}
-      <div className="mb-1">
+      <div>
         {/* Title */}
         <SubHeading>{project.title}</SubHeading>
 
@@ -26,7 +26,7 @@ export default function ProjectCard({ className, project }) {
       </div>
 
       {/* Links */}
-      <div className="flex gap-2 mb-1">
+      <div className="flex gap-2">
         <SocialLinkCard
           iconSrc="/github-icon.png"
           title="GitHub"
