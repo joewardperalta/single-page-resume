@@ -3,7 +3,7 @@ import ContactLinkCard from "./ContactLinkCard";
 export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full bg-white border-b-tertiary border-b-[0.5px]">
-      <div className="px-4 py-3 max-w-[800px] mx-auto md:px-8 md:py-6">
+      <div className="px-4 py-3 max-w-[800px] mx-auto">
         <nav>
           <ul className="flex items-center justify-between">
             {/* Location */}
@@ -15,7 +15,7 @@ export default function Navbar() {
             </li>
 
             {/* Contact Information */}
-            <div className="flex gap-5 md:gap-6">
+            <div className="flex gap-5">
               <li>
                 <ContactLinkCard
                   iconSrc="/email-icon.png"
