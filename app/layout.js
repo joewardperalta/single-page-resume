@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://single-page-resume-theta.vercel.app/"),
   title: "Joeward Peralta — Full Stack Developer Resume",
   description:
     "Junior Full Stack Developer skilled in React, Next.js, Node.js, and MongoDB. View projects, experience, and contact details.",
