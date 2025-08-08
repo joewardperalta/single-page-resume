@@ -15,6 +15,8 @@ import socials from "@/data/socials.json";
 import projects from "@/data/projects.json";
 import experience from "@/data/experience.json";
 import education from "@/data/education.json";
+import languages from "@/data/languages.json";
+import LanguageProficiency from "@/components/LanguageProficiency";
 
 export default function Home() {
   return (
@@ -121,6 +123,21 @@ export default function Home() {
             {education.map((education) => (
               <li key={education.id}>
                 <EducationCard education={education} />
+              </li>
+            ))}
+          </ul>
+        </Wrapper>
+      </section>
+
+      {/* Languages Section */}
+      <section>
+        <Wrapper>
+          <SectionHeading className="mb-6">Languages</SectionHeading>
+
+          <ul className="space-y-3">
+            {languages.map((language) => (
+              <li key={language.id}>
+                <LanguageProficiency language={language} />
               </li>
             ))}
           </ul>

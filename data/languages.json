@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "English",
+    "proficiency": "Fluent"
+  },
+  {
+    "id": 2,
+    "name": "Tagalog",
+    "proficiency": "Native"
+  }
+]
