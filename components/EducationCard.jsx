@@ -20,7 +20,7 @@ export default function EducationCard({ className, education }) {
 
         {/* Date and stack */}
         <div>
-          <p className="font-medium text-xs uppercase text-secondary">
+          <p className="font-medium text-xs uppercase text-secondary md:text-sm">
             {educationDateText}
           </p>
         </div>
