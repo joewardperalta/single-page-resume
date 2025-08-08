@@ -14,7 +14,7 @@ export default function SocialLinkCard({
       className={`flex w-fit items-center gap-1`}
     >
       {/* Contact Icon */}
-      <div className="w-4 h-4">
+      <div className="w-4 h-4 md:w-5 md:h-5">
         <Image
           className="w-full h-full"
           src={iconSrc}
