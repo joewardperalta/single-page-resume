@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "title": "Freelance Full Stack Developer",
+    "startDate": {
+      "month": "Jul",
+      "year": 2025
+    },
+    "endDate": {
+      "month": null,
+      "year": null
+    },
+    "responsibilities": [
+      "Delivered 2 full-stack apps across finance, and immigration sectors",
+      "Managed client handoff, documentation, and timelines using GitHub and Notion",
+      "Translated business goals into technical solutions with clean, testable code"
+    ]
+  }
+]

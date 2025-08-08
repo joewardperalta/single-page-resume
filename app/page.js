@@ -7,10 +7,12 @@ import SocialLinkCard from "@/components/SocialLinkCard";
 import SubTitle from "@/components/SubTitle";
 import Title from "@/components/Title";
 import Wrapper from "@/components/Wrapper";
+import ExperienceCard from "@/components/ExperienceCard";
 
 import skills from "@/data/skills.json";
 import socials from "@/data/socials.json";
 import projects from "@/data/projects.json";
+import experience from "@/data/experience.json";
 
 export default function Home() {
   return (
@@ -78,6 +80,7 @@ export default function Home() {
         </Wrapper>
       </section>
 
+      {/* Projects Section */}
       <section>
         <Wrapper>
           <SectionHeading className="mb-6">Projects</SectionHeading>
@@ -86,6 +89,21 @@ export default function Home() {
             {projects.map((project) => (
               <li key={project.id}>
                 <ProjectCard project={project} />
+              </li>
+            ))}
+          </ul>
+        </Wrapper>
+      </section>
+
+      {/* Experience Section */}
+      <section>
+        <Wrapper>
+          <SectionHeading className="mb-6">Experience</SectionHeading>
+
+          <ul className="space-y-5">
+            {experience.map((experience) => (
+              <li key={experience.id}>
+                <ExperienceCard experience={experience} />
               </li>
             ))}
           </ul>
