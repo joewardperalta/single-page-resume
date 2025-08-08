@@ -3,6 +3,24 @@ import SocialLinkCard from "./SocialLinkCard";
 import SubHeading from "./SubHeading";
 
 export default function ProjectCard({ className, project }) {
+  let techStackText = "";
+  project.stacks.forEach((skill, index) => {
+    if (index < project.stacks.length - 1) {
+      techStackText += skill + ", ";
+    } else {
+      techStackText += skill;
+    }
+  });
+
+  const projectDateText =
+    project.startDate.month +
+    " " +
+    project.startDate.year +
+    " - " +
+    (project.endDate.month
+      ? project.endDate.month + " " + project.endDate.year
+      : "Present");
+
   return (
     <div className="space-y-2">
       {/* Headline */}
@@ -13,14 +31,7 @@ export default function ProjectCard({ className, project }) {
         {/* Date and stack */}
         <div>
           <p className="font-medium text-xs uppercase text-secondary">
-            {project.startDate.month} {project.startDate.year} {" - "}
-            {project.endDate.month
-              ? project.endDate.month + " " + project.endDate.year
-              : "Present"}
-            {" | "}
-            {project.stacks.map((stack, index) =>
-              index < project.stacks.length ? stack + "," : stack
-            )}
+            {projectDateText + " | " + techStackText}
           </p>
         </div>
       </div>
