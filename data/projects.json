@@ -43,7 +43,7 @@
       "Developed a secure admin dashboard with role-based access to manage blog content, job postings, applicant data, and downloadable documents, including resume uploads and Excel export",
       "Implemented a full job board and blog portal with search, filters, form handling, file management, and automated email notifications using Node.js, MongoDB, Cloudinary, and Nodemailer"
     ],
-    "githubLink": "https://github.com/joewardperalta/single-page-resume",
-    "websiteLink": "https://single-page-resume-theta.vercel.app/"
+    "githubLink": "/",
+    "websiteLink": "/"
   }
 ]
