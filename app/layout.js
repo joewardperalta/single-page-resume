@@ -9,13 +9,23 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Joeward Peralta — Full Stack Developer",
+  title: "Joeward Peralta — Full Stack Developer Resume",
   description:
     "Junior Full Stack Developer skilled in React, Next.js, Node.js, and MongoDB. View projects, experience, and contact details.",
   openGraph: {
-    title: "Joeward Peralta — Full Stack Developer",
+    type: "website",
+    url: "https://single-page-resume-theta.vercel.app/",
+    title: "Joeward Peralta — Full Stack Developer Resume",
     description:
       "Junior Full Stack Developer skilled in React, Next.js, Node.js, and MongoDB. View projects, experience, and contact details.",
+    images: [
+      {
+        url: "/website-hero-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Joeward Peralta Resume Preview",
+      },
+    ],
   },
 };
 
