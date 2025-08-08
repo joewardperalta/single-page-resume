@@ -3,7 +3,7 @@ import ContactLinkCard from "./ContactLinkCard";
 export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full bg-white border-b-tertiary border-b-[0.5px]">
-      <div className="px-4 py-3 max-w-[800px] mx-auto">
+      <div className="px-4 py-3 max-w-[800px] mx-auto md:py-6 md:px-8">
         <nav>
           <ul className="flex items-center justify-between">
             {/* Location */}

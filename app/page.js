@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="pt-11">
+      <section className="pt-[4.25rem]">
         <Wrapper>
           <div className="space-y-4">
             {/* Profile photo */}
