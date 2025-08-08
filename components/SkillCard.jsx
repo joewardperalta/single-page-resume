@@ -11,7 +11,7 @@ export default function SkillCard({
     <Link
       href={link}
       target="_blank"
-      className="flex w-fit items-center gap-1 bg-tertiary px-2 py-1 rounded-md"
+      className="flex w-fit items-center gap-1 bg-tertiary px-2 py-1 rounded-md text-secondary duration-200 hover:scale-[1.05] hover:text-primary"
     >
       {/* Contact Icon */}
       <div className="w-4 h-4">
@@ -26,7 +26,7 @@ export default function SkillCard({
 
       {/* Contact Title */}
       <div>
-        <Paragraph>{title}</Paragraph>
+        <p className="text-sm md:text-base">{title}</p>
       </div>
     </Link>
   );
