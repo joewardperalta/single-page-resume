@@ -13,6 +13,9 @@ export const metadata = {
   title: "Joeward Peralta — Full Stack Developer Resume",
   description:
     "Junior Full Stack Developer skilled in React, Next.js, Node.js, and MongoDB. View projects, experience, and contact details.",
+  authors: [{ name: "Joeward Peralta" }],
+  creator: "Joeward Peralta",
+  publisher: "Joeward Peralta",
   openGraph: {
     type: "website",
     url: "https://single-page-resume-theta.vercel.app/",
