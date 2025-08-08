@@ -8,23 +8,7 @@ export default function ProjectCard({ className, project }) {
       {/* Headline */}
       <div className="mb-1">
         {/* Title */}
-        <div className="flex justify-between">
-          <SubHeading>{project.title}</SubHeading>
-
-          {/* Links */}
-          <div className="flex gap-4">
-            <SocialLinkCard
-              iconSrc="/github-icon.png"
-              title="GitHub"
-              link={project.githubLink}
-            />
-            <SocialLinkCard
-              iconSrc="/link-icon.png"
-              title="Website"
-              link={project.websiteLink}
-            />
-          </div>
-        </div>
+        <SubHeading>{project.title}</SubHeading>
 
         {/* Date and stack */}
         <div>
@@ -39,6 +23,20 @@ export default function ProjectCard({ className, project }) {
             )}
           </p>
         </div>
+      </div>
+
+      {/* Links */}
+      <div className="flex gap-2 mb-1">
+        <SocialLinkCard
+          iconSrc="/github-icon.png"
+          title="GitHub"
+          link={project.githubLink}
+        />
+        <SocialLinkCard
+          iconSrc="/link-icon.png"
+          title="Website"
+          link={project.websiteLink}
+        />
       </div>
 
       {/* Responsibilities */}
