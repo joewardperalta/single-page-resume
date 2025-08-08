@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Honours Bachelor of Technology, Software Development",
+    "startDate": {
+      "month": "Aug",
+      "year": 2025
+    },
+    "endDate": {
+      "month": null,
+      "year": null
+    },
+    "coursework": "Database Design Principles, Web Programming Principles, Object-Oriented Paradigm Using C++, Web Programming for Apps and Services, System Development and Design, System Analysis and Design, Principles of GUI Design and Programming, Data Structure and Algorithms, Software Project Management, Advanced User Interface Design, Information Technology, AI for Software Developers."
+  },
+  {
+    "id": 2,
+    "title": "Ontario College Advanced Diploma, Computer Programming/Analysis",
+    "startDate": {
+      "month": "Sep",
+      "year": 2020
+    },
+    "endDate": {
+      "month": "Aug",
+      "year": 2024
+    },
+    "coursework": "Database Systems, Software Testing, Web Programming Principles, Advanced Database Services, Object-Oriented Software Development Using C++, Software Analysis and Design, Data Structure and Algorithm, Web Programming for Apps and Services, Introduction to Microsoft Cloud Technologies."
+  }
+]
