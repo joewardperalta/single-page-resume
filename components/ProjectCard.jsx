@@ -24,7 +24,7 @@ export default function ProjectCard({ className, project }) {
         <ul>
           {project.responsibilities.map((responsibility, index) => (
             <li className="list-disc text-secondary" key={index}>
-              {responsibility}
+              <Paragraph>{responsibility}</Paragraph>
             </li>
           ))}
         </ul>
