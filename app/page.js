@@ -1,5 +1,6 @@
 import Paragraph from "@/components/Paragraph";
 import ProfilePhoto from "@/components/ProfilePhoto";
+import ProjectCard from "@/components/ProjectCard";
 import SectionHeading from "@/components/SectionHeading";
 import SkillCard from "@/components/SkillCard";
 import SocialLinkCard from "@/components/SocialLinkCard";
@@ -9,6 +10,7 @@ import Wrapper from "@/components/Wrapper";
 
 import skills from "@/data/skills.json";
 import socials from "@/data/socials.json";
+import projects from "@/data/projects.json";
 
 export default function Home() {
   return (
@@ -79,6 +81,14 @@ export default function Home() {
       <section>
         <Wrapper>
           <SectionHeading>Projects</SectionHeading>
+
+          <ul>
+            {projects.map((project) => (
+              <li key={project.id}>
+                <ProjectCard project={project} />
+              </li>
+            ))}
+          </ul>
         </Wrapper>
       </section>
     </main>
