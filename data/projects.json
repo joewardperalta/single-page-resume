@@ -18,5 +18,32 @@
     ],
     "githubLink": "https://github.com/joewardperalta/single-page-resume",
     "websiteLink": "https://single-page-resume-theta.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "Immigration Agency Website",
+    "startDate": {
+      "month": "Aug",
+      "year": 2025
+    },
+    "endDate": {
+      "month": null,
+      "year": null
+    },
+    "stacks": [
+      "React.js",
+      "Node.js",
+      "Next.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "responsibilities": [
+      "Built and deployed a fully responsive, client-facing immigration consultancy website with a modern UI, mobile-first design, and integrated booking system powered by Stripe",
+      "Developed a secure admin dashboard with role-based access to manage blog content, job postings, applicant data, and downloadable documents, including resume uploads and Excel export",
+      "Implemented a full job board and blog portal with search, filters, form handling, file management, and automated email notifications using Node.js, MongoDB, Cloudinary, and Nodemailer"
+    ],
+    "githubLink": "https://github.com/joewardperalta/single-page-resume",
+    "websiteLink": "https://single-page-resume-theta.vercel.app/"
   }
 ]

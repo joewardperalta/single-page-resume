@@ -82,7 +82,7 @@ export default function Home() {
         <Wrapper>
           <SectionHeading className="mb-6">Projects</SectionHeading>
 
-          <ul>
+          <ul className="space-y-5">
             {projects.map((project) => (
               <li key={project.id}>
                 <ProjectCard project={project} />
