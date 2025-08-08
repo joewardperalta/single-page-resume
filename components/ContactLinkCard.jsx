@@ -13,7 +13,7 @@ export default function ContactLinkCard({
       href={link}
       className={`flex w-fit items-center ${
         !disableTitleOnMobile ? "gap-1" : ""
-      }`}
+      } md:gap-2`}
     >
       {/* Contact Icon */}
       <div className="w-4 h-4">
@@ -31,7 +31,7 @@ export default function ContactLinkCard({
         <p
           className={`text-primary text-sm ${
             disableTitleOnMobile ? "hidden" : ""
-          }`}
+          } md:block`}
         >
           {title}
         </p>
