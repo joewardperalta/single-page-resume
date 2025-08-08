@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import Paragraph from "./Paragraph";
@@ -11,7 +12,7 @@ export default function SocialLinkCard({
     <Link
       href={link}
       target="_blank"
-      className={`flex w-fit items-center gap-1`}
+      className={`flex w-fit items-center gap-1 text-secondary duration-200 hover:text-primary hover:transition-all`}
     >
       {/* Contact Icon */}
       <div className="w-4 h-4 md:w-5 md:h-5">
@@ -26,7 +27,7 @@ export default function SocialLinkCard({
 
       {/* Contact Title */}
       <div>
-        <Paragraph>{title}</Paragraph>
+        <p className="text-sm md:text-base">{title}</p>
       </div>
     </Link>
   );
