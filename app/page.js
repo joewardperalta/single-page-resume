@@ -8,11 +8,13 @@ import SubTitle from "@/components/SubTitle";
 import Title from "@/components/Title";
 import Wrapper from "@/components/Wrapper";
 import ExperienceCard from "@/components/ExperienceCard";
+import EducationCard from "@/components/EducationCard";
 
 import skills from "@/data/skills.json";
 import socials from "@/data/socials.json";
 import projects from "@/data/projects.json";
 import experience from "@/data/experience.json";
+import education from "@/data/education.json";
 
 export default function Home() {
   return (
@@ -104,6 +106,21 @@ export default function Home() {
             {experience.map((experience) => (
               <li key={experience.id}>
                 <ExperienceCard experience={experience} />
+              </li>
+            ))}
+          </ul>
+        </Wrapper>
+      </section>
+
+      {/* Education Section */}
+      <section>
+        <Wrapper>
+          <SectionHeading className="mb-6">Education</SectionHeading>
+
+          <ul className="space-y-5">
+            {education.map((education) => (
+              <li key={education.id}>
+                <EducationCard education={education} />
               </li>
             ))}
           </ul>
