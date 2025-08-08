@@ -1,5 +1,6 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
-import Paragraph from "./Paragraph";
 import Link from "next/link";
 
 export default function ContactLinkCard({
@@ -9,33 +10,38 @@ export default function ContactLinkCard({
   disableTitleOnMobile = false,
 }) {
   return (
-    <Link
-      href={link}
-      className={`flex w-fit items-center ${
-        !disableTitleOnMobile ? "gap-1" : ""
-      } md:gap-2`}
+    <motion.div
+      whileHover={{ scale: 1.03 }}
+      transition={{ duration: 0.2, ease: "easeInOut" }}
     >
-      {/* Contact Icon */}
-      <div className="w-4 h-4">
-        <Image
-          className="w-full h-full"
-          src={iconSrc}
-          alt="A contact icon."
-          width={20}
-          height={20}
-        />
-      </div>
+      <Link
+        href={link}
+        className={`flex w-fit items-center ${
+          !disableTitleOnMobile ? "gap-1" : ""
+        } md:gap-2`}
+      >
+        {/* Contact Icon */}
+        <div className="w-4 h-4">
+          <Image
+            className="w-full h-full"
+            src={iconSrc}
+            alt="A contact icon."
+            width={20}
+            height={20}
+          />
+        </div>
 
-      {/* Contact Title */}
-      <div>
-        <p
-          className={`text-primary text-sm ${
-            disableTitleOnMobile ? "hidden" : ""
-          } md:block`}
-        >
-          {title}
-        </p>
-      </div>
-    </Link>
+        {/* Contact Title */}
+        <div>
+          <p
+            className={`text-primary text-sm ${
+              disableTitleOnMobile ? "hidden" : ""
+            } md:block`}
+          >
+            {title}
+          </p>
+        </div>
+      </Link>
+    </motion.div>
   );
 }
