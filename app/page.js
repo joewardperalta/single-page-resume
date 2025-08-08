@@ -63,7 +63,7 @@ export default function Home() {
       {/* Technical Skills Section */}
       <section>
         <Wrapper>
-          <SectionHeading>Technical Skills</SectionHeading>
+          <SectionHeading className="mb-6">Technical Skills</SectionHeading>
           <ul className="flex gap-2 flex-wrap">
             {skills.map((skill) => (
               <li key={skill.id}>
@@ -80,7 +80,7 @@ export default function Home() {
 
       <section>
         <Wrapper>
-          <SectionHeading>Projects</SectionHeading>
+          <SectionHeading className="mb-6">Projects</SectionHeading>
 
           <ul>
             {projects.map((project) => (
