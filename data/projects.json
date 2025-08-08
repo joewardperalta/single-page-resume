@@ -15,6 +15,8 @@
       "Developed a fully responsive single-page digital resume using React.js, Next.js, and Tailwind CSS, optimized for desktop, tablet, and mobile viewing to enhance recruiter accessibility and engagement",
       "Implemented semantic HTML and accessibility best practices to ensure WCAG-compliant design, improving usability for diverse audiences and aligning with industry standards",
       "Optimized page performance and SEO, enabling instant load times, improved search visibility, and seamless recruiter access via a shareable web link"
-    ]
+    ],
+    "githubLink": "https://github.com/joewardperalta/single-page-resume",
+    "websiteLink": "https://single-page-resume-theta.vercel.app/"
   }
 ]
