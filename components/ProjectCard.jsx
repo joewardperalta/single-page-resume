@@ -30,7 +30,7 @@ export default function ProjectCard({ className, project }) {
 
         {/* Date and stack */}
         <div>
-          <p className="font-medium text-xs uppercase text-secondary">
+          <p className="font-medium text-xs uppercase text-secondary md:text-sm">
             {projectDateText + " | " + techStackText}
           </p>
         </div>
