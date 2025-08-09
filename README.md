@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Single-Page Resume — Joeward Peralta
 
-## Getting Started
+A sleek, easily shareable **single-page digital resume** built with **React**, **Next.js**, and **Tailwind CSS**, optimized for performance and recruiter accessibility via a shareable web link.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+##  Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Explore the live version here:  
+[single-page-resume-theta.vercel.app](https://single-page-resume-theta.vercel.app/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Overview
 
-## Learn More
+This project is a **responsive, accessible**, and **SEO-optimized** digital resume designed for recruiters and collaborators. It features:
 
-To learn more about Next.js, take a look at the following resources:
+- Semantic HTML and best practices for **WCAG compliance**, ensuring usability for diverse audiences.  
+- Lightning-fast performance and minimal load times for efficient access.  
+- Modern responsive design using Tailwind CSS, optimized for mobile, tablet, and desktop.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##  Technology Stack
 
-## Deploy on Vercel
+- **React.js** — Component-driven UI  
+- **Next.js** — Server-side rendering, routing, and performance  
+- **Tailwind CSS** — Utility-first styling for rapid and consistent design  
+- **JavaScript** — Core scripting  
+- **HTML & CSS** — Semantic structure and layout integrity  
+- SEO optimizations for improved discoverability  
+- Accessible markup and ARIA best practices
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  Features
+
+| Feature | Description |
+|--------|-------------|
+| **Responsive Design** | Fluid, mobile-first layout using Tailwind to adapt across devices |
+| **Accessibility** | Semantic elements and ARIA attributes improve navigation for assistive tech |
+| **SEO-Friendly** | Metadata, optimized content, and Next.js routing enhance visibility |
+| **Easy Sharing** | Instantly shareable via a unique Vercel-deployed URL |
+| **Clean & Minimal UI** | Professional and unobtrusive design enhances readability |
+
+---
