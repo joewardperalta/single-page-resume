@@ -38,7 +38,7 @@ This project is a **responsive, accessible**, and **SEO-optimized** digital resu
 | Feature | Description |
 |--------|-------------|
 | **Responsive Design** | Fluid, mobile-first layout using Tailwind to adapt across devices |
-| **Accessibility** | Semantic elements and ARIA attributes improve navigation for assistive tech |
+| **Accessibility** | Semantic elements |
 | **SEO-Friendly** | Metadata, optimized content, and Next.js routing enhance visibility |
 | **Easy Sharing** | Instantly shareable via a unique Vercel-deployed URL |
 | **Clean & Minimal UI** | Professional and unobtrusive design enhances readability |
